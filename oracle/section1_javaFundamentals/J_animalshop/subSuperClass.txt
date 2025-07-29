@@ -1,2 +1,0 @@
-superClass is a parent class and subclass is a child class
-subclass inherits from its parents

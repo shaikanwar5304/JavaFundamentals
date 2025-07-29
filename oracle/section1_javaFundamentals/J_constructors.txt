@@ -1,6 +1,0 @@
-constructors are of same name as class
-invoked by new keyword
-they create objects
-one or more constructors are allowed as long as they have different signatures
-i.e they should have different arguments
-if we don't declare explicit constructor java will provide a blank one for you
