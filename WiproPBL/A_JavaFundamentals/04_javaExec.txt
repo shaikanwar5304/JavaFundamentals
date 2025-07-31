@@ -1,0 +1,10 @@
+jdk(..., java compiler, jre[..., jvm{..., jit}])
+
+java file is converted to class file via javac (java compiler) which is a part of jdk (first compilation)
+the bytecode (class file) is then run with jre (java runtime environment) other part of jdk or in any jre.
+jre contains jvm which interprets the code
+if there is any code repeating no of times it will be compiled to machine code by jit for faster execution
+
+nodejs, jre (runtimes) for js and java (what we download)
+these contains engines like
+v8, jvm (for execution)

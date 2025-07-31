@@ -1,3 +1,5 @@
+// check if a number is palindrome
+// we create a new number reverse of it and compare
 public class Palindrome {
     public static void main(String[] args) {
         int num=Integer.parseInt(args[0]);
@@ -13,3 +15,5 @@ public class Palindrome {
         }
     }
 }
+// java Palindrome.java 12321
+// output: 12321 is a palindrome

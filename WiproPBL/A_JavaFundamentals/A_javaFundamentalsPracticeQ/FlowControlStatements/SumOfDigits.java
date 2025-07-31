@@ -1,3 +1,4 @@
+// suma of digits of a number
 import java.util.Scanner;
 public class SumOfDigits {
     public static void main(String[] args) {
@@ -12,3 +13,4 @@ public class SumOfDigits {
         System.out.println(res);
     }
 }
+// 4533 : 15

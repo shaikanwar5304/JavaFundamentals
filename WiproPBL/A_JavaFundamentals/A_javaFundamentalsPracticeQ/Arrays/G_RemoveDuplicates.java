@@ -1,3 +1,4 @@
+// removing duplicates from an array
 class G_RemoveDuplicates{
     public static void main(String[] args) {
         int[]arr={3,5,2,3,9,4};

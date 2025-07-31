@@ -1,3 +1,5 @@
+// how to intiate double
+// how to use octal and hexadecimal numbers
 public class D_Test2 {
     public static void main(String[] args) {
         double d= 1.2;
@@ -8,7 +10,7 @@ public class D_Test2 {
         //in java num start with 0 is octal and 0X is hexa
         //b= 1*8 +7; i.e 15 and 3*16 + 10 i.e 58
         System.out.println(a+" "+b+" "+c);//10 15 58
-
+        System.out.println(a+b+c);//83
         //int 9A=10; Error
 
         int x;

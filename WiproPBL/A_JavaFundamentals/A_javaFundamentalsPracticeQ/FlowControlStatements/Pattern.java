@@ -1,3 +1,4 @@
+// print a right angle triangle pattern
 import java.util.Scanner;
 public class Pattern {
     public static void main(String[] args) {
@@ -13,3 +14,10 @@ public class Pattern {
         }
     }
 }
+// $ java Pattern.java 
+// Enter a number : 5
+// * 
+// * *
+// * * *
+// * * * *
+// * * * * *

@@ -1,3 +1,5 @@
+// arrays introduction in Java
+// declaration, initialization, and accessing elements, length property
 public class T_Arrays {
     public static void main(String[] args) {
 

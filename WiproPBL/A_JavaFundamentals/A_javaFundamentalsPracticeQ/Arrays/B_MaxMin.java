@@ -1,3 +1,4 @@
+// Find the maximum and minimum element in an array
 public class B_MaxMin {
     public static void main(String[] args) {
         int[] arr={2,1,3,1,5};

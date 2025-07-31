@@ -6,7 +6,7 @@ public class AlphabeticalOrder {
             System.out.println(x+","+y);
         }
         else{
-            System.out.println(y+","+x);
+            System.out.println(y+","+x);//a,z
         }
     }
 }

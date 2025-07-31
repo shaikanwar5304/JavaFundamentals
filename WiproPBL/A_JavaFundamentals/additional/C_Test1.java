@@ -1,3 +1,4 @@
+// demonstration of how to initialize float values and experimenting boolean
 public class C_Test1 {
     public static void main(String[] args) {
         //float f= 1.2 ; // Java treats floating-point literals as double by default

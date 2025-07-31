@@ -1,3 +1,6 @@
+// extraction of char at ith index
+// usage of switch
+// how to take input of a single word
 import java.util.Scanner;
 public class ColorCode {
     public static void main(String[] args) {

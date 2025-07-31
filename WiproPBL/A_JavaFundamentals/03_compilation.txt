@@ -1,3 +1,2 @@
-if there are two functions in main()
-then three class files one for main and two functions are created
-and then they will go to jvm
+Every class in a Java program (top-level, inner, local, or anonymous) (any where in the) gets its own .class file after 
+compilation.

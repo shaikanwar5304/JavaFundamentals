@@ -1,3 +1,5 @@
+// addition two numbers using command line arguments
+// about parsing strings to integers
 public class E_addNum {
     public static void main(String[] args) {
         System.out.println(Integer.parseInt(args[0])+Integer.parseInt(args[1]));//5

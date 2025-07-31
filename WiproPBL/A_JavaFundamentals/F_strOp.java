@@ -1,3 +1,4 @@
+// about string operations in Java
 public class F_strOp {
     public static void main(String[] args) {
         System.out.println("3"+4);//34 (String + int = string)

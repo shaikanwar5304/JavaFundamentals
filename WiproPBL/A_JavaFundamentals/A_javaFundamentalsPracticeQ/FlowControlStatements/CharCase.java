@@ -1,3 +1,4 @@
+// converting lowercase to uppercase and vice versa
 public class CharCase {
     public static void main(String[] args) {
         char c='F';

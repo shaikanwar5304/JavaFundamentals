@@ -1,3 +1,4 @@
+// Java program to demonstrate the use of for-each loop
 public class U_forEach {
     public static void main(String[] args) {
         int arr[]=new int[]{2,2,3,4,1};

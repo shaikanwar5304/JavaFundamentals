@@ -5,7 +5,7 @@ public class Arguments {
         }else
         {
             for(int i=0;i<args.length;i++){
-                System.out.print(args[i]);
+                System.out.print(args[i]);//hi,anwar,how,are,you
                 if(!(i==args.length-1)){
                     System.out.print(",");
                 }

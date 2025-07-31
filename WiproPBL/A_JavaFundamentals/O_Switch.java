@@ -1,3 +1,5 @@
+// about switch statement in Java
+// importance of break
 public class O_Switch {
     public static void main(String[] args) {
         //switch accepts only int, byte, short, char, strings and enums
@@ -16,6 +18,8 @@ public class O_Switch {
               System.out.println("You passed");
            case 'F' :
               System.out.println("Better try again");
+            case 2:
+              System.out.println("You are in case 2");
            default :
               System.out.println("Invalid grade");
         }
@@ -29,17 +33,13 @@ public class O_Switch {
 //char grade = 'D';
 //You passed
 //Better try again
+//You are in case 2
+//Invalid grade
 //Your grade is D
 
 // int grade =4;
 //Invalid grade
-// Your grade is 3
+// Your grade is 4
 
 //if there is no default
-//Your grade is 3
-
-//char grade ='D'
-// You passed
-// Better try again
-// Invalid grade
-// Your grade is D
+//Your grade is 4

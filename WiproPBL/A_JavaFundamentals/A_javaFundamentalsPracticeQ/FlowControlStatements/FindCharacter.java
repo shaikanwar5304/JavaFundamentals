@@ -1,3 +1,4 @@
+// judging a character what type it belongs to 
 public class FindCharacter {
     public static void main(String[] args) {
         char c='^';
@@ -7,7 +8,7 @@ public class FindCharacter {
         else if((c>=65 &&c<='Z')||(c>='a'&&c<='z')){
             System.out.println("Alphabet");
         }else{
-            System.out.println("Special character");
+            System.out.println("Special character");// special character
         }
     }
 }

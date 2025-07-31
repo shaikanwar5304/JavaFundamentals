@@ -1,3 +1,4 @@
+// saying args as array and demonstrating its length
 public class G_arrLen {
     public static void main(String[] args) {
         System.out.println(args.length);//5

@@ -1,3 +1,5 @@
+// break and continue statements in Java
+// break exits the loop, continue skips the current iteration
 public class S_BreakContinue {
     public static void main(String[] args) {
         System.out.println("Break Statement\n....................");

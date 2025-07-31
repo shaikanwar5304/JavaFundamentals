@@ -1,3 +1,4 @@
+// logical operations in Java
 public class L_LogicalOps {
     public static void main(String[] args) {
         boolean A=(1==2/2);//true

@@ -14,8 +14,6 @@ public static void main(String[] args) {
             }
         }
         System.out.print(arr[i]+" ");// 234 2 0 7 5 -7 5 3 1
-    }
-    
-}
-    
+    }   
+}   
 }

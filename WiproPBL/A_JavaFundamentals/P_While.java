@@ -1,3 +1,4 @@
+// while loop demonstration
 public class P_While {
     public static void main(String[] args) {
         int x=0;

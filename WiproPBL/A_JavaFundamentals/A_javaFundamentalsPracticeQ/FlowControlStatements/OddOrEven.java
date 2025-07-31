@@ -1,3 +1,4 @@
+// judge if the given number is even or odd
 public class OddOrEven {
     public static void main(String[] args) {
         int n=Integer.parseInt(args[0]);

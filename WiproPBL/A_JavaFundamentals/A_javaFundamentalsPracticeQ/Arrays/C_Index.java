@@ -1,3 +1,4 @@
+// Find the index of a key in an array
 public class C_Index {
     public static void main(String[] args) {
         int[] arr={3,5,2,1,6,3};

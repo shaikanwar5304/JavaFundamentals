@@ -1,3 +1,4 @@
+//checking if a number is positive or negative or zero
 public class CheckNumber {
     public static void main(String[] args) {
         int n=Integer.parseInt(args[0]);

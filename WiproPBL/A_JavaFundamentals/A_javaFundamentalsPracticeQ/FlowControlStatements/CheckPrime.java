@@ -1,3 +1,5 @@
+// checking if a number is prime number
+// we have to check if the numbers till sqrt of current numbers are divisible by the number
 public class CheckPrime {
     
     public static void main(String[] args) {

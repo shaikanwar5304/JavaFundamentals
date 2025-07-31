@@ -1,4 +1,4 @@
-
+// Java program to calculate sum and average of an array
 public class A_SumAvg {
     public static void main(String[] args) {
         int arr[]={1,2,3};

@@ -1,3 +1,5 @@
+// if else if demonstration
+@SuppressWarnings
 public class N_IfElseIf {
     public static void main(String[] args) {
         if (3<4){

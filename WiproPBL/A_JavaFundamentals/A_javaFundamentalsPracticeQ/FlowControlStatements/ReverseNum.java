@@ -9,3 +9,4 @@ public class ReverseNum {
         System.out.println(revNum);
     }
 }
+//4321

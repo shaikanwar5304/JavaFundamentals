@@ -1,6 +1,6 @@
 class L_MiddleElem{
     public static void main(String[] args) {
-        int[] a={1,3,4};
+        int[]a={1,3,4};
         int[]b={5,2,6};
         int[]c=new int[2];
         c[0]=a[1];
