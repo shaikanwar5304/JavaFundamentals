@@ -1,9 +1,10 @@
 class myClass{
     int instVar;//instance varible// initializes automatically
-    //System.out.println(instVar); statements like this should be either in constructor or methods
+    //System.out.println(instVar); //statements like this should be either in constructor or methods
     void myMethod(){
         int localVar;//local variable// should be initialized explicitly
         System.out.println(instVar);
+        //System.out.println(localVar);//error 
     }
 }
 public class A_Variables{

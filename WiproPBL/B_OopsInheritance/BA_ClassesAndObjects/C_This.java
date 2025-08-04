@@ -9,7 +9,7 @@ class myClass2{
         this.insVar1=n;
     }
     myClass2(){
-        this(999);
+        this(999);// calling the constructor
     }
 }
 public class C_This {
