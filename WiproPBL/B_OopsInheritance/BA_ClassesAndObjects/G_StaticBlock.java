@@ -1,3 +1,4 @@
+// Demonstration of execution of static{} blocks
 public class G_StaticBlock {
     static{
         System.out.println("this is a 1st static block");
