@@ -1,3 +1,4 @@
+// p1c1 is in same package so (default, protected, public are accessible)
 package P1;
 public class P1C2 {
 public static void main(String[] args) {

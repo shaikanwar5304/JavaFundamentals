@@ -1,3 +1,4 @@
+// demonstration of inheritance, method overriding and super keyword
 class X{
     X(){
         System.out.println("constructor of X");
@@ -17,16 +18,23 @@ class Y extends X{
     void className(){
         System.out.println("y");
     }
+    void methodY(){
+        System.out.println("methodY");
+    }
 }
 class Z extends Y{
     Z(){
         System.out.println("constructor of Z");
     }
-    void className(){
+    void className(){ // method overriding (child class is given much priority)
         System.out.println("z");
     }
+    void methodZ(){
+        System.out.println("methodZ");
+    }
     void superClassName(){
-        super.className();//immediate superclass
+        super.className();// resembles immediate superclass i.e. Y
+        // super.super.className(); // error 
     }
     void superMethod(){
         super.methodX();//can access super of super class
@@ -43,6 +51,7 @@ class A_constructor extends Z{
         obj.superMethod();//methodX
     }
 }
+// constructors are executed in the order of inheritance i.e. from parents to childre
 /*
  * constructor of X
  * constructor of Y

@@ -1,3 +1,4 @@
+// Ternary Operator demonstration
 class A_Ternary{
     public static void main(String[] args) {
         int x=34;
