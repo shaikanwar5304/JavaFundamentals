@@ -1,3 +1,4 @@
+// demonstration of string methods
 public class B_StringMethods {
     public static void main(String[] args) {
         String s1="Hello";
@@ -21,7 +22,7 @@ public class B_StringMethods {
         //startsWith (checks the beginning of the string)
         System.out.println("January".startsWith("Jan"));//true
         System.out.println("January".startsWith("jan"));//false
-        System.out.println("January".startsWith("an",1));//true
+        System.out.println("January".startsWith("nu",2));//true
         System.out.println();
 
         //endsWith (checks the end of the string)

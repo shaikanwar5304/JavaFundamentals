@@ -1,6 +1,6 @@
 /**
- * A_MethodOverRiding (between the classes)
- * method overloading is similar but with in the class
+ * A_MethodOverRiding (between the classes) same method but different implementation
+ * method overloading is similar but with in the class // same method name but different parameters 
  * these concepts are related to having same method name but having different
  * functionalities based on their signature
  */
@@ -11,11 +11,11 @@ class A {
 }
 
 class B extends A {
-    void display(int n) {
+    void display(int n) {// overridden
         System.out.println("hi this is B's method");
     }
 
-    void displayOverridden(int n) {
+    void displayOverridden(int n) { // A way of accessing A's overridden method
         super.display(n);
     }
 }

@@ -1,3 +1,5 @@
+// abstract class cannot be final
+// abstract classes can be extended to other abstract classes
 abstract class Al {
 //abstract final void ml(); Error: abstract requires method overriding while final is to avoid method overriding
 }

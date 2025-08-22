@@ -1,3 +1,18 @@
+// demonstration of setters and getters
+// how to set values for i and j
+// how to get values of i and j
+
+public class C_Var {
+    public static void main(String[] args) {
+        A obj1=new A();
+        obj1.setI(10);
+        obj1.setJ(20);
+        obj1.printI();//10
+        obj1.printJ();//20
+        A obj2=new A();
+        obj2.printJ();//0
+    }
+}
 class A{
     int i;
     int j;
@@ -13,16 +28,5 @@ class A{
     }
     void printJ(){
         System.out.println(j);
-    }
-}
-public class C_Var {
-    public static void main(String[] args) {
-        A obj1=new A();
-        obj1.setI(10);
-        obj1.setJ(20);
-        obj1.printI();//10
-        obj1.printJ();//20
-        A obj2=new A();
-        obj2.printJ();//0
     }
 }

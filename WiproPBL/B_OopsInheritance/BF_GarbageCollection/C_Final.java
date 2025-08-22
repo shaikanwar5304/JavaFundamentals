@@ -1,3 +1,6 @@
+// final class can't be a parent i.e. can't be inherited
+// final method can't be overridden
+// final variable can't be changed
 final class A{
     int x=10;
 }

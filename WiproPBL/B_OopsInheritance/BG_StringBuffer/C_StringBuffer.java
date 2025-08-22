@@ -1,3 +1,4 @@
+// demonstration of StringBuffer and its methods
 public class C_StringBuffer {
     public static void main(String[] args) {
         //StringBuffer is mutable

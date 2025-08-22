@@ -1,8 +1,11 @@
+// demonstration of string creation
+// string methods
+// string is immutable
+// once created, cannot be changed
 public class A_CreatingString {
     public static void main(String[] args) {
-        //string is immutable
         String s1="Hello";
-
+        // creating string using character array
         char ch[]={'j','a','v','a'};
         String s2=new String(ch);
 

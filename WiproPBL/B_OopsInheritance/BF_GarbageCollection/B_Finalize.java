@@ -1,3 +1,5 @@
+// A method named finalize will be called before deleting an object via garbage collector 
+// that is what matters in this example
 public class B_Finalize {
     static int count = 0;
     B_Finalize(){
@@ -17,7 +19,7 @@ public class B_Finalize {
         //count is not reduced to 0 because of unpredictable behaviour of garbage collector
         //the order of execution of finalize method is not guaranteed
     }
-    protected void finalize(){//finalize method is called by garbage collector before destroying the object
+    public void finalize(){//finalize method is called by garbage collector before destroying the object
         B_Finalize.count--;
         System.out.println("no of objects left: "+B_Finalize.count);
         /*
