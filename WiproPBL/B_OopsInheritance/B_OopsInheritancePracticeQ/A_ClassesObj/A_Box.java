@@ -1,3 +1,4 @@
+// using of private variables
 class A_Box{
     private int a;
     private int b;

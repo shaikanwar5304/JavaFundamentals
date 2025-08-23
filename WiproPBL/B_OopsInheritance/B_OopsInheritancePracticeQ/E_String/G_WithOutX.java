@@ -7,6 +7,7 @@
 public class G_WithOutX {
     public static void main(String[] args) {
         String s="Xtra";
+        // s= s.trim("xX");// won't work (trim don't take arguments)
         if(s.charAt(0)=='x' || s.charAt(0)=='X'){
             s=s.substring(1);
         }

@@ -1,3 +1,4 @@
+// Inheriting from Person class
 class Employee extends Person{
     double salary;
     int year;

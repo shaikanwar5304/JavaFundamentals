@@ -1,3 +1,4 @@
+// Polymorphism means the ability of an object to take on many forms, typically achieved through method overriding and method overloading in Java.
 class Fruit{
     String name;
     String taste;

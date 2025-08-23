@@ -7,7 +7,7 @@
 
 // i/p:wipro,3
 
-// o/D Proproprc)
+// o/p:Propropro
 public class J_LastNChar {
     public static void main(String[] args) {
         String s="Wipro";

@@ -21,6 +21,6 @@ public class H_StarInString {
             }if(s1Arr[1]!=""){
                 s1Arr[1]=s1Arr[1].substring(1);
             }
-            System.out.println(s1Arr[0]+s1Arr[1]);//HiAll
+            System.out.println(s1Arr[0]+s1Arr[1]);//Hll
         }
 }}

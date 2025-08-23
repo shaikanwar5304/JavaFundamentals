@@ -7,7 +7,7 @@
 
 // i/p:Hello, World
 
-// o/p:Hueolrllod
+// o/p:Hweolrllod
 public class I_Alternate {
     public static void main(String[] args) {
         String s1="12345";

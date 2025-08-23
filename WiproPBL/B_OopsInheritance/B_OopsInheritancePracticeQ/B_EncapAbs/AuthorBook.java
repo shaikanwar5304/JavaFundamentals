@@ -1,3 +1,5 @@
+// usage of super() constructor
+// usage of inheritance
 class Author{
     private String name;
     private String email;
@@ -19,7 +21,7 @@ class AuthorBook extends Author{
     private double price;
     private int qtyInStock;
     AuthorBook(String bookName,double price,int Stock,String AuthorName,String email,char gender){
-        super(AuthorName,email,gender);
+        super(AuthorName,email,gender); // constructor call must be the first statement. we can't put this line down below
         this.name=bookName;
         this.price=price;
         this.qtyInStock=Stock;

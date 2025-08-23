@@ -1,3 +1,5 @@
+// using of static methods
+// calculating a power b
 class B_Calculator{
     static int powerInt(int a,int b){
         int pow=1;
