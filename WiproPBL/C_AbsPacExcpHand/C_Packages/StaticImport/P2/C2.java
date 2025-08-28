@@ -1,4 +1,7 @@
+// Demonstrating static import
 package StaticImport.P2;
+// import static is for importing static methods
+// .....*****..... observe static is written after import
 import static StaticImport.P1.C1.*;
 //import  StaticImport.*; // can't import packages
  

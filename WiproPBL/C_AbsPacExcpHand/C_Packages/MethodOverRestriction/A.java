@@ -1,22 +1,28 @@
 package MethodOverRestriction;
 
 public class A {
-    
-    protected void display(){
-        System.out.println("I'm inside A");
+    protected int protectedVar = 10;
+    public void publicMethod(){
+        System.out.println("I'm public method in A");
     }
-    private void display1(){
-        System.out.println("I'm inside A");
+    protected void protectedMethod(){
+        System.out.println("I'm protected method in A");
     }
-    private void show(){
-        System.out.println("this is show method inside A");
+    void defaultMethod(){
+        System.out.println("I'm default method in A");
     }
-    protected void show2(){
-        System.out.println("this is show2 method inside A");
+    private void privateMethod(){
+        System.out.println("I'm private method in A");
     }
-    public static void main(){
-        restriction obj=new restriction();
-        obj.display();
-        //obj.show(10);
+    public static void main(String[] args){
+        A obj=new A();
+        obj.publicMethod(); // I'm public method in A
+        obj.protectedMethod(); // I'm protected method in A
+        obj.defaultMethod(); // I'm default method in A
+        obj.privateMethod(); // I'm private method in A
+        restriction obj2=new restriction();
+        // obj2.privateMethod(); can't access private method of A via subclass
+        obj2.protectedMethod(); // I'm protected method in restriction
+        obj2.defaultMethod(); // I'm default method in A
     }
 }

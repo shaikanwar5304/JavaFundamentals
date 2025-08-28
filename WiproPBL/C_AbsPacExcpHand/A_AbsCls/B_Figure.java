@@ -1,3 +1,5 @@
+// Demonstration of abstract class
+// abstract class can have constructor
 //class abstract myClass{} //illegal
 abstract class Figure {
     double dim1;

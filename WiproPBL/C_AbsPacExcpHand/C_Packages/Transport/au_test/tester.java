@@ -1,3 +1,4 @@
+// just a small example of packages imports etc..
 package au_test;
 import automobile.*;
 
@@ -12,3 +13,12 @@ public class tester {
         c.printName();
     }
 }
+/*
+I'm inside the au_test package.
+Bike
+I'm inside the automobile package.
+Vehicle
+I'm inside the automobile package.
+Car
+I'm inside the automobile package.
+ */

@@ -1,4 +1,9 @@
+// just testing accesses modifiers across different files in packages
 import test.*;
+// var1 is declared private
+// var2 is declared default
+// var3 is declared protected
+// var4 is declared public
 public class NewClass extends foundation {
     public void display() {//non static method
         System.out.println(var3);//30

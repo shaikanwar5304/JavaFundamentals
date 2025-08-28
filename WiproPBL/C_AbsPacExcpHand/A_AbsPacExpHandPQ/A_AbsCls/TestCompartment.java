@@ -1,5 +1,4 @@
-// Create an abstract class Compartment to represent a rail coach. Provide an abstract
-// function notice in this class.
+// Create an abstract class Compartment to represent a rail coach. Provide an abstract function notice in this class.
 
 // public abstract String notice();
 

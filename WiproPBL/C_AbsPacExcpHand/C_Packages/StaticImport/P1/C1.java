@@ -1,3 +1,4 @@
+// in other files we will import these static methods by using import static .....
 package StaticImport.P1;
 
 public class C1 {

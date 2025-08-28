@@ -1,18 +1,19 @@
+// if a method in parent class is public it can only be public in child class
+// we can't reduce the visibility of inherited methods (like making it protected or private or default)
+// if the method in parent class is protected it can only be protected or public in child class
+// visibility order : public > protected > default > private
 package MethodOverRestriction;
 
 public class restriction extends A{
-    //void display(){ }// access modifier is more restrictive than the parent class
-    public void display(){ System.out.println("display inside restriction");}// access modifier is less restrictive than the parent class so allowed
-    public  void display1(){ System.out.println("display1 inside restriction");}
-    private void show(int a){
-        System.out.println(a);
-    }
-    //void show2(){}// access modifier is more restrictive than the parent class
-    void show2(int a){System.out.println(a);}//this is likely a different method so allowed
-    public static void main(String[] args) {
-        restriction myObj=new restriction();
-        myObj.display();//display inside restriction
-        myObj.display1();//display1 inside restriction
-        myObj.show(10);//10
-    }
+    // restriction is only for methods i think as variables are working fine with restricted datatype
+    // int protectedVar = 5; // no error 
+    private int protectedVar = 5;
+
+    // protected method in parent can't be default in child (makes it less visible)
+    //void protectedMethod(){}// access modifier is more restrictive than the parent class
+
+    public void protectedMethod(){
+         System.out.println("I'm protectedMethod in restriction");
+    }// access modifier is less restrictive
+
 }
