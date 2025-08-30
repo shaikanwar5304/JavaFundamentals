@@ -14,8 +14,10 @@ public class A_AccessArr{
             System.out.println("Element at index "+index+" is: "+arr[index]);
         }
         catch(NumberFormatException e){
+            System.out.println("numberformatException");
             System.out.println(e.getMessage());
         }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("arrayindexoutofboundsexception");
             System.out.println(e.getMessage());
         }catch(Exception e){
             System.out.println(e);
@@ -23,7 +25,9 @@ public class A_AccessArr{
     }
 }
 // Enter no of elements:2 3 4
-// Enter the index to access:5 Index 5 out of bounds for length 2
+// Enter the index to access:5 
+// arrayindexoutofboundsexception
+// Index 5 out of bounds for length 2
 
 // Enter no of elements: fs
 // java.util.InputMismatchException

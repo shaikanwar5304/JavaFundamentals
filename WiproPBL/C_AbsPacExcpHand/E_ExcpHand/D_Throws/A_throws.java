@@ -11,8 +11,9 @@ public class A_throws {
 			System.out.println(e);//java.io.FileNotFoundException
 		}
 	}
-	//static void throwOne() {//ERror unhandled exception
-	static void throwOne()  throws FileNotFoundException, Exception{
+	//static void throwOne() {}//ERror unhandled exception
+	// indicating that this method can throw these exceptions
+	static void throwOne()  throws Exception, FileNotFoundException{
 		System.out.println("inside throwOne method");
 		throw new FileNotFoundException();
 	}

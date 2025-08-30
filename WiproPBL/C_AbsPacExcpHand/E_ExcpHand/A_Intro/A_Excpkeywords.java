@@ -6,7 +6,7 @@ public class A_Excpkeywords{
         }catch(Exception e){
             System.out.println(e.getMessage());// / by zero
             System.out.println(e);//java.lang.ArithmeticException: / by zero
-        }finally{
+        }finally{// finally will always execute after try-catch
             System.out.println("finally block");//finally block
         }
     }

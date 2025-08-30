@@ -1,3 +1,4 @@
+// for understanding nested try-catch blocks
 public class B_NestedTry {
     public static void main(String[] args) {
         
@@ -9,11 +10,11 @@ public class B_NestedTry {
             }catch(ArithmeticException e){
                 System.out.println(e);//java.lang.ArithmeticException: / by zero
             }
-        }catch(ArithmeticException e){
+        }catch(ArithmeticException e) {
+            System.out.println(e);
+        }catch(Exception e) {
             System.out.println(e);
         }
-        catch(Exception e){
-            System.out.println(e);
-        }System.out.println("rest of the code");//rest of the code
+        System.out.println("rest of the code");//rest of the code
     }
 }

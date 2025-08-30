@@ -1,5 +1,6 @@
 import java.io.IOException;
-
+// if a try block has a checked exception, it must be handled with a catch block
+// if a try block has an unchecked exception, it may not be handled
 public class B_final {
     static void funcA() throws ArithmeticException {
         ArithmeticException e = new ArithmeticException();
@@ -26,6 +27,7 @@ public class B_final {
         try {
             B_final.funcA();// since funcA() throws ArithmeticException, it may be a unchecked exception so
                             // it need not be handled
+            // B_final.funB(); // this throws a checked exception so need to be handled (i.e. catch block required definitely)
         } finally {
             System.out.println("sout in finally");// sout in finally
         }

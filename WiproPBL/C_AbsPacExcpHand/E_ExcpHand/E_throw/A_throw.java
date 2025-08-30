@@ -1,6 +1,6 @@
 //userdefined exception is used when we want to have exception for our use
 // ex: if we want to raise exception for those who enter age above 18 the we write our own exception
-
+// one of the way to create is returning the err message by overriding the toString() method
 import java.io.IOException;
 
 class MyException extends Exception{
@@ -24,13 +24,13 @@ public class A_throw {
         int age=10;
         try{
             if(age<18){
-                throw new MyException();
+                throw new MyException();// this is user defined Exception
             }
         }
         //catching via checked exception
         //as it checks within compile time so it is detects earlier
         //catch(IOException e){System.out.println("IOException");}//Error: IOException is not thrown
-        
+        // it is saying IOException is not thrown in the try block so why would you catch it? (i'm also unsure like why not?)
         //via unchecked Exception
         catch(NumberFormatException e){
             System.out.println("NumberFormatException");

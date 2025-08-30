@@ -16,7 +16,7 @@ public class A_tryfinally {
         }finally{
             System.out.println("inside second finally");//inside second finally
         }
-        // System.out.println("after finally"); Error as error is not handled
+        // System.out.println("after finally"); //Error as error is not handled
     }
 }
 //still there is error

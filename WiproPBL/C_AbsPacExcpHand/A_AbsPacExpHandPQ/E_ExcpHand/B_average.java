@@ -22,3 +22,5 @@ public class B_average {
         }
     }
 }
+// java B_average.java 2 3 4 df
+// java.lang.NumberFormatException: For input string: "df"
